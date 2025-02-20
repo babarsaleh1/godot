@@ -63,3 +63,4 @@ env.core_sources += core_obj
 
 # Needed to force rebuilding the core files when the thirdparty library is updated.
 env.Depends(core_obj, thirdparty_obj)
+# Needed to force rebuilding the core files when the configuration file is updated.fix
